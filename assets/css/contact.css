@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+html body{
+	overflow-x: hidden;
+}
+
+.bg-section-contact{
+	padding-top: 130px;
+}
+
+.btn-info{
+	background-color:#3498DB;
+}
+
+.btn-info:hover{
+	background-color:#02164f;
+}

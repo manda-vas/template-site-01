@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.bg-section-service{
+	padding-top: 130px;
+}
+
+
+.service-box{
+	text-align: center;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+
+.service-box .service-icon{
+	display: inline-block;
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	border-radius: 50%;
+	background: #3498DB linear-gradient(to right, rgba(0,0,0,.25), transparent);
+	font-size: 40px;
+	color: aliceblue;
+	margin-bottom: 40px;
+	position: relative;
+}
+
+.service-box .service-icon:before{
+	content: "";
+	border: 3px solid aliceblue;
+	border-radius: 50%;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	right: 10px;
+	opacity: 1;
+	transition: all 0.3s ease 0s;
+}
+
+.service-box:hover .service-icon:before{
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+}
+
+.service-box .service-icon:after{
+	content: "";
+	border-top: 25px solid  #2d83bc;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	position: absolute;
+	bottom: -22px;
+	left: 42px;
+	
+}
+
+.service-box .service-content{
+	padding: 20px 25px;
+	background: #3498DB linear-gradient(to right, rgba(0,0,0,.25), transparent);
+	border-radius: 15px;
+	color: aliceblue;
+	position: relative;
+}
+
+.service-box .service-content:before{
+	content: "";
+	border: 3px solid white;
+	border-radius: 10px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+	opacity: 0;
+	transition: all 0.3s ease 0s;
+}
+
+
+
+.service-box:hover .service-content:before{
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	opacity: 1;
+}
+
+.service-box .title-service{
+	display: block;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 0 12px 0;
+	position: relative;
+}
+
+.service-box .description-service{
+	font-size: 15px;
+	line-height: 27px;
+	letter-spacing: 1px;
+}
