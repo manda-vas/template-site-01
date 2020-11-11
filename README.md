@@ -1,6 +1,6 @@
 <h1 align="center">TEMPLATE HTML5 RESPONSIVO</h1>
 
-<h1><img src="assets/imgIndex/demo01.jpg" alt="Home Site"></h1>
+<h1 align="center"><img src="assets/imgIndex/demo01.jpg" alt="Home Site"></h1>
 
 
 ## 👀 Sobre
