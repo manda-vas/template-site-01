@@ -22,5 +22,5 @@
 - wow.js
 - Owl Carousel
 ___
-<h1 align="center"><a href="http://amandavasconcelos.com/ToClean/demo01.html">Demonstração</a></h1>
+<h1 align="center"><a href="http://amandavasconcelos.com/ToClean/demo01.html" target="_blank">Demonstração</a></h1>
 
